@@ -6,7 +6,7 @@ FILE *input_fptr, *output_fptr;
 %%
 
 abc {fprintf(output_fptr,"ABC");}
-[d-zA-Z]+ {fprintf(output_fptr,"%s",yytext);}
+[a-zA-Z]+ {fprintf(output_fptr,"%s",yytext);}
 [^a-zA-Z]+ {fprintf(output_fptr,"%s",yytext);}
 
 %%
