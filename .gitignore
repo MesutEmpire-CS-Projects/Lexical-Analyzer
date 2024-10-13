@@ -53,6 +53,10 @@ dkms.conf
 
 /.vscode
 /idea
-question_+/+.c
-question_+/+[^.]+
+
+question_1_a/*[^.]*
+question_1_b/*[^.]*
+question_2/*[^.]*
+question_1**/*.c
+
 
